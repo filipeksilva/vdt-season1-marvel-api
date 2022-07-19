@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "back2thepast": "sh ./back2thepast.sh",
-    "test": "npm run back2thepast && npx cypress run"
+    "test": "npm run back2thepast && npx cypress run",
+    "cypress:open": "cypress open",
+    "cypress": "cypress run" 
   },
   "repository": {
     "type": "git",

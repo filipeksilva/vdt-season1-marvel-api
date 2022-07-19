@@ -58,7 +58,6 @@ describe('GET /characters/id', function(){
     context('quando tenho um personagem cadastrado', function(){
 
         before(function(){
-            // todo
             cy.postCharacter(kasperCole).then(function(response){
                 Cypress.env('characterId', response.body.character_id)
             })
